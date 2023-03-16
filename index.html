@@ -16,7 +16,7 @@
       <nav class="navbar navbar-expand-md navbar-dark bg-dark fixe-top">
         <div class="container">
           <a class="navbar-brand" href="/index.html">
-            <img src="bootstrap-fill.svg" alt="Icono Cop">
+            <img src="img/bootstrap-fill.svg" alt="Icono Cop">
             Bootstrap
           </a>
           <button 
@@ -71,7 +71,58 @@
     </header>
 
     <main>
-      <h1>Prueba de posicion</h1>
+      <div id="carouselmain" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselmain" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselmain" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselmain" data-bs-slide-to="2" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselmain" data-bs-slide-to="3" aria-label="Slide 3"></button>
+        </div>
+      
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/img1.jpg" alt="New York" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Vivir En Una Gran Ciudades</h5>
+              <p>Descubre las ventajas y desventajas de elegir vivir en una ciudad como New York, París o Madrid.</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/img2.jpg" alt="California" class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>La Costa, la Mejor Opción</h5>
+            <p>Vivir junto al mar tiene muchísimas ventajas para la salud. Hablemos del efecto "Espacio Azul".</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/img3.jpg" alt="Ciudad Jardin" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Árboles y Cemento. Convirtamos Nuestra Ciudades.</h5>
+              <p>El ser humano no puede evitar vivir concentrado en lugares con recrusos, así que, si tenemos que hacerlo, ¿por qué no hacerlo rodeados de árboles?.</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/img4.jpg" alt="Pueblo" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Los Pueblos. La Mejor Opción.</h5>
+              <p>Si puedes trabajar en remoto, vivir en un pueblo, o en una peña ciudad, es lo mejor que puedes hacer.</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselmain" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselmain" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
